@@ -1,0 +1,50 @@
+.box{
+    padding: 50px;
+}
+
+.title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+    font-size: 34px;
+}
+
+.p-one, .p-two, .p-three{
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.image{
+    width: 100%;
+}
+
+
+
+
+/*////////////////////////*/
+/*/    MEDIA QUERIS    /*/
+/*///////////////////////*/
+
+
+@media (min-width: 1400px) {
+    .box{
+        padding: 100px 200px;
+    }
+
+
+    .title{
+        font-size: 60px;
+    }
+
+    .p-one, .p-two, .p-three{
+        font-size: 28px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+    }
+}
